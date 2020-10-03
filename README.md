@@ -1,2 +1,2 @@
 # aidken.github.io
-My GitHubpage.
+My [GitHub Page](https://aidken.github.io/).
