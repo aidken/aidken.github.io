@@ -3,6 +3,8 @@
 
 Want to add a nice appearance on my web app. Bootstrap should be a good choice. A sample site is [here](https://szw6q.csb.app/).
 
+Write an HTML, link Bootstrap, and add Bootstrap class to your HTML elements. Bootstrap CSS are applied to your elements.
+
 
 ### Github Pages: Define publishing source
 ##### Friday, November 27th, 2020
@@ -11,6 +13,62 @@ Successfully launched my Github page, finally after a few weeks. You have to [de
 within your repo. My default settings wrongly pointed at `master` as the publishing source, but my branch is actually `main`.
 
 Good. I tried to solve a problem of my Github page, and could solve it.
+
+
+### [CodeSandbox](https://codesandbox.io)
+##### August 22nd, 2020
+
+#### Learn Vanilla first
+Tried writing TypeScript not successfully. Looks like I have to learn Vanilla first and then flavours.
+Look, I wrote
+
+```typescript
+export default ['hello'];
+```
+
+and it does not work. CodeSandbox suggests I should use [Babel](https://babeljs.io/).
+
+```typescript
+export function hello(person) {
+    ...
+}
+```
+
+was understood.
+
+Tried adding `./babelrc` but could not make Babel transpiler work. Back to Vanilla Javascript.
+
+What do other people do? Flavours, transpilers, appear to be a big barrier in learning a scripting language.
+
+
+#### Use curly braces when importing
+Do not understand this curly braces, but when I put them it worked.
+
+This does not work.
+
+```typescript
+import hello from './function';
+```
+
+This works.
+
+```typescript
+import { hello } from './function';
+```
+
+What is this curly braces for?
+
+
+#### CodeSandbox hosts Node.js
+So this means it can host Node.js app.
+
+
+#### Running tests with [Jest](https://jestjs.io/)
+Successfully ran tests with [Jest](https://jestjs.io/). CodeSandbox editor provides lots of suggestion, such as file path, in its editor. Nice.
+
+
+#### What is [Percel](https://parceljs.org/)?
+So Percel builds components into the final product... It transpiles... doesn't it?
 
 
 ### Use VSCode shortcuts!
