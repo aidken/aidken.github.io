@@ -1,3 +1,13 @@
+### Template of Parcel 2 Bunder at [codesandbox.io](https://codesandbox.io/)
+#### Saturday, April 16th, 2022
+
+I'd like to make the bundler of my codesandbox projects [Parcel 2](https://parceljs.org/).
+
+[Here](https://bit.ly/3EkSvMN) is my template of simple Vanilla Javascript template with Parcel 2.
+
+It's not easy for me to make a Yoeman generator. [Here](https://www.npmjs.com/package/generator-parcel-webapp) is a one with Parcel 1. Change a little bit in package.json and you can change the bundler Parcel 2.
+
+
 ### [Learning Bootstrap](https://github.com/aidken/learning_bootstrap)
 ##### Saturday, November 28th, 2020
 
