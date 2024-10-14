@@ -1,5 +1,12 @@
+### pytest: the scope of fixture
+Monday, October 14, 2024
+I write python packages that parse reports and returns objects. When I write tests with [pytest](https://docs.pytest.org/), usually I make a fixture that parses and returns a report object.
+
+In a situation like this I should use `scope='module'`.
+
+
 ### Template of Parcel 2 Bunder at [codesandbox.io](https://codesandbox.io/)
-#### Saturday, April 16th, 2022
+Saturday, April 16th, 2022
 
 I'd like to make the bundler of my codesandbox projects [Parcel 2](https://parceljs.org/).
 
@@ -9,7 +16,7 @@ It's not easy for me to make a Yoeman generator. [Here](https://www.npmjs.com/pa
 
 
 ### [Learning Bootstrap](https://github.com/aidken/learning_bootstrap)
-##### Saturday, November 28th, 2020
+Saturday, November 28th, 2020
 
 Want to add a nice appearance on my web app. Bootstrap should be a good choice. A sample site is [here](https://szw6q.csb.app/).
 
@@ -17,7 +24,7 @@ Write an HTML, link Bootstrap, and add Bootstrap class to your HTML elements. Bo
 
 
 ### Github Pages: Define publishing source
-##### Friday, November 27th, 2020
+Friday, November 27th, 2020
 
 Successfully launched my Github page, finally after a few weeks. You have to [define the publishing source](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 within your repo. My default settings wrongly pointed at `master` as the publishing source, but my branch is actually `main`.
@@ -26,7 +33,7 @@ Good. I tried to solve a problem of my Github page, and could solve it.
 
 
 ### [CodeSandbox](https://codesandbox.io)
-##### August 22nd, 2020
+August 22nd, 2020
 
 #### Learn Vanilla first
 Tried writing TypeScript not successfully. Looks like I have to learn Vanilla first and then flavours.
