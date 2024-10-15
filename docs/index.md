@@ -1,11 +1,19 @@
+<!--
+  cSpell:ignore pytest
+-->
+
 ### pytest: the scope of fixture
+
 Monday, October 14, 2024
-I write python packages that parse reports and returns objects. When I write tests with [pytest](https://docs.pytest.org/), usually I make a fixture that parses and returns a report object.
 
-In a situation like this I should use `scope='module'`.
+Some of my tasks are to parse reports, maybe text or Excel files, run analysis and generate other reports. For this I create Python packages that parse many different reports. I include [pytest](https://docs.pytest.org/) tests to test my package.
 
+Typically my pytest scripts parses a report, generate a report object and then run [parametrized tests](https://docs.pytest.org/en/latest/how-to/parametrize.html). I include a [fixture](https://docs.pytest.org/en/latest/how-to/fixtures.html) that parses and returns a report object.
+
+For a fixure like this, I should set [the scope of the fixture to module](https://docs.pytest.org/en/latest/how-to/fixtures.html#scope-sharing-fixtures-across-classes-modules-packages-or-session). This way I can save the number of runs of the fixture function.
 
 ### Template of Parcel 2 Binder at [codesandbox.io](https://codesandbox.io/)
+
 Saturday, April 16th, 2022
 
 I'd like to make the bundler of my codesandbox projects [Parcel 2](https://parceljs.org/).
