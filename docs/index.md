@@ -5,7 +5,7 @@ I write python packages that parse reports and returns objects. When I write tes
 In a situation like this I should use `scope='module'`.
 
 
-### Template of Parcel 2 Bunder at [codesandbox.io](https://codesandbox.io/)
+### Template of Parcel 2 Binder at [codesandbox.io](https://codesandbox.io/)
 Saturday, April 16th, 2022
 
 I'd like to make the bundler of my codesandbox projects [Parcel 2](https://parceljs.org/).
