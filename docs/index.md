@@ -10,7 +10,7 @@ Some of my tasks are to parse reports, maybe text or Excel files, run analysis a
 
 Typically my pytest scripts parses a report, generate a report object and then run [parametrized tests](https://docs.pytest.org/en/latest/how-to/parametrize.html). I include a [fixture](https://docs.pytest.org/en/latest/how-to/fixtures.html) that parses and returns a report object.
 
-For a fixure like this, I should set [the scope of the fixture to module](https://docs.pytest.org/en/latest/how-to/fixtures.html#scope-sharing-fixtures-across-classes-modules-packages-or-session). This way I can save the number of runs of the fixture function.
+For a fixture like this, I should set [the scope of the fixture to module](https://docs.pytest.org/en/latest/how-to/fixtures.html#scope-sharing-fixtures-across-classes-modules-packages-or-session). This way I can save the number of runs of the fixture function.
 
 ### Template of Parcel 2 Binder at [codesandbox.io](https://codesandbox.io/)
 
