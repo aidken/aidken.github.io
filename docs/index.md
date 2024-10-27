@@ -1,8 +1,19 @@
-### pytest: the scope of fixture
+### pytest: how can I see print output to stdout
 
 <!--
   cSpell:ignore pytest
 -->
+
+Saturday, October 26, 2024
+
+Just like everyone, I place lots of print() statements in my code to see values of variables and the status of objects.
+
+When I run a test with [pytest](https://docs.pytest.org/), output sent to stdout is by default captured, not printed, if the test is successful. If the test fails, output sent to stdout is printed. This behavior is explained [here](https://docs.pytest.org/en/latest/how-to/capture-stdout-stderr.html).
+
+But sometimes I want to see output from my print statements on tests that did not fail. A quick way to do is command line option `--capture=no`. This disables capturing, letting output to stdout not suppressed.
+
+
+### pytest: the scope of fixture
 
 Monday, October 14, 2024
 
