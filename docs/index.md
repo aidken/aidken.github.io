@@ -1,3 +1,26 @@
+### [datetime](https://docs.python.org/3/library/datetime.html).datetime is an instance of datetime.date.
+
+Tuesday, November 5, 2024
+
+[datetime](https://docs.python.org/3/library/datetime.html).date is a subclass of `datetime.datetime`.
+
+    Python 3.11.10 | packaged by Anaconda, Inc. | (main, Oct  3 2024, 07:22:26) [MSC v.1929 64 bit (AMD64)] on win32
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>>
+    >>> import datetime
+    >>> x = datetime.datetime.now()
+    >>> x
+    datetime.datetime(2024, 11, 5, 16, 12, 8, 233553)
+    >>> isinstance(x, datetime.datetime)
+    True
+    >>> isinstance(x, datetime.date)
+    True   # this is also True!
+
+Often times I check if a datetime instance is `datetime.date`.
+Both `datetime.date` and `datetime.datetime` returns True. This may make me
+leave a `datetime.datetime` as is where I like a `datetime.date`.
+Watch out for this. Often I get tricked in this and waste time.
+
 ### pytest: how can I see print output to stdout
 
 <!--
