@@ -1,4 +1,4 @@
-### [datetime](https://docs.python.org/3/library/datetime.html).datetime is an instance of datetime.date.
+### [datetime](https://docs.python.org/3/library/datetime.html).datetime is an instance of datetime.date
 
 Tuesday, November 5, 2024
 
